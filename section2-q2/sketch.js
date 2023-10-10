@@ -10,7 +10,7 @@ function setup() {
       let x = i * s;
       let y = j * s;
       if ((i + j) % 2 === 1) {
-        fill(100,100,55);
+        fill(255,0,0);
         rect(x, y, s, s);
       }
       if (((i + j) % 2 === 1) && (j < 3)) {
@@ -18,7 +18,7 @@ function setup() {
         ellipse(x + s / 2, y + s / 2, d);
       }
       if (((i + j) % 2 === 1) && (4 < j)) {
-        fill(255);
+        fill(0);
         ellipse(x + s / 2, y + s / 2, d, d);
       }
     }
